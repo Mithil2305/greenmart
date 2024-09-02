@@ -6,7 +6,7 @@ const Home = () => {
 			<div className="home">
 				<div className="head">
 					<div className="search">
-						<img src={search} alt="" />
+						<img src={search} alt="" width={"40px"} />
 						<input type="text" name="" id="" />
 					</div>
 				</div>
