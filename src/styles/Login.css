@@ -18,7 +18,7 @@ h2{
     font-size: 20px;
 }
 
-select {
+.sel select {
     background-color: #00c013; /* Darker green for button */
     color: white;
     border: none;
@@ -46,7 +46,7 @@ select {
     width: 150px;
     justify-content: center;
 }
-select:hover {
+.sel select:hover {
     background-color: #0aff23d4;
     cursor: pointer;
 }

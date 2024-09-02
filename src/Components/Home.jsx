@@ -4,6 +4,8 @@ import weather from "../assets/weather.png";
 import profile from "../assets/profile.png";
 import star from "../assets/star.png";
 import Chat from "../assets/Chat.png";
+import '../styles/Home.css'
+
 const Home = () => {
 	return (
 		<>
