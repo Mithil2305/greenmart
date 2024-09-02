@@ -1,14 +1,15 @@
 
 import React from "react";
-import {Login} from "./Components/Login";
-import {Chat} from "./Components/Chat";
 
+import Home from "./Components/Home";
+import Products from "./Components/Products";
+import "./App.css";
 const App = () => {
 	return (
 		<div>
-      {/* <Login/> */}
-			{/* <Home/> */}
-			<Chat/>
+			<Home />
+			{/* <Products /> */}
+
 		</div>
 	);
 };
