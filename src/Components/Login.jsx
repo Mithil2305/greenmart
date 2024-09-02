@@ -1,4 +1,5 @@
 import React from 'react'
+import '../styles/Login.css'
 
 export const Login = () => {
   return (
@@ -37,7 +38,7 @@ export const Login = () => {
 
             <h2>OR</h2>
 
-           
+           <a href='#'><h2>Call us : 055-599-788</h2></a>
 
         </div>
     </div>
