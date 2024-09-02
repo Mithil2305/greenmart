@@ -2,8 +2,41 @@
 
 div img{
     height: 80px;
+    width: 80px;
+    margin-bottom: 40px;
+}
+
+div button {
     justify-content: center;
     text-align: center;
-    margin-left: 100px;
-    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.d{
+    justify-content: center;
+    text-align: center;
+    
+}
+.b{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.d button{
+    background-color: #ee6767;
+    border-radius: 6px;
+    padding-top: 8px;
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 35px;
+}
+
+.d button img{
+    height: 15px;
+    width: 15px;
+    margin-right: 7px;
 }

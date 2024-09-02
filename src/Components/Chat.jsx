@@ -1,15 +1,20 @@
 import React from 'react'
 import Farmer from '../assets/Farmer.png'
-import Male from '../assets/Male User.png'
+import Male from '../assets/profile.png'
 import loco from '../assets/Location.png'
 import msg from '../assets/Chat.png'
+import play from '../assets/Play.png'
 import '../styles/Chat.css'
 
+//ee6767
 export const Chat = () => {
   return (
-    <div>
+    <div className='d'>
         <img src={Farmer}></img>
-        <button>Watch Tutorial</button>
+        <div className="b">
+            <button><img src={play}></img>Watch Tutorial</button>
+
+        </div>
         <div className="far">
             <div className="pro">
                 <img src={Male}></img>
