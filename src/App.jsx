@@ -1,12 +1,12 @@
 import React from "react";
 import Home from "./Components/Home";
+import Products from "./Components/Products";
 import "./App.css";
 const App = () => {
 	return (
 		<div>
 			<Home />
-			<Farmer />
-			<Settings />
+			{/* <Products /> */}
 		</div>
 	);
 };
