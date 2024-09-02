@@ -1,5 +1,12 @@
-import { useState } from "react";
+import React from "react";
+import Home from "./Components/Home";
 
-return <>{/* comp */}</>;
+const App = () => {
+	return (
+		<div>
+			<Home />
+		</div>
+	);
+};
 
 export default App;
