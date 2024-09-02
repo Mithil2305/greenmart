@@ -20,9 +20,97 @@ export const Chat = () => {
                 <img src={Male}></img>
             </div>
             <div className="about">
-                <h4>Farmer Name</h4>
-                <p><img src={loco}></img> Coimbatore</p>
-                <p>Primary: Coconut</p>
+                <p>Farmer Name</p>
+                <div className="ab">
+                <img src={loco}></img>
+                    <div className="ab1">
+                    <h4>Coimbatore</h4>
+                    <br />
+                    <p>Primary: Coconut</p>
+                    </div>
+                
+                </div>
+            </div>
+            <div className="btn">
+                <button><img src={msg}></img> Message</button>
+            </div>
+        </div>
+        
+        <div className="far">
+            <div className="pro">
+                <img src={Male}></img>
+            </div>
+            <div className="about">
+                <p>Farmer Name</p>
+                <div className="ab">
+                <img src={loco}></img>
+                    <div className="ab1">
+                    <h4>Coimbatore</h4>
+                    <br />
+                    <p>Primary: Coconut</p>
+                    </div>
+                
+                </div>
+            </div>
+            <div className="btn">
+                <button><img src={msg}></img> Message</button>
+            </div>
+        </div>
+        <div className="far">
+            <div className="pro">
+                <img src={Male}></img>
+            </div>
+            <div className="about">
+                <p>Farmer Name</p>
+                <div className="ab">
+                <img src={loco}></img>
+                    <div className="ab1">
+                    <h4>Coimbatore</h4>
+                    <br />
+                    <p>Primary: Coconut</p>
+                    </div>
+                
+                </div>
+            </div>
+            <div className="btn">
+                <button><img src={msg}></img> Message</button>
+            </div>
+        </div>
+        <div className="far">
+            <div className="pro">
+                <img src={Male}></img>
+            </div>
+            <div className="about">
+                <p>Farmer Name</p>
+                <div className="ab">
+                <img src={loco}></img>
+                    <div className="ab1">
+                    <h4>Coimbatore</h4>
+                    <br />
+                    <p>Primary: Coconut</p>
+                    </div>
+                
+                </div>
+            </div>
+            <div className="btn">
+                <button><img src={msg}></img> Message</button>
+            </div>
+        </div>
+        <div className="far">
+            <div className="pro">
+                <img src={Male}></img>
+            </div>
+            <div className="about">
+                <p>Farmer Name</p>
+                <div className="ab">
+                <img src={loco}></img>
+                    <div className="ab1">
+                    <h4>Coimbatore</h4>
+                    <br />
+                    <p>Primary: Coconut</p>
+                    </div>
+                
+                </div>
             </div>
             <div className="btn">
                 <button><img src={msg}></img> Message</button>
