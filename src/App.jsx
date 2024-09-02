@@ -1,5 +1,14 @@
 import { useState } from "react";
+import { Login } from "./Components/Login";
 
-return <>{/* comp */}</>;
+import React from 'react'
+
+const App = () => {
+  return (
+    <div>
+        <Login/>
+    </div>
+  )
+}
 
 export default App;
