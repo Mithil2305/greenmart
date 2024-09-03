@@ -11,6 +11,7 @@ input[type="text"] {
 	background-color: #b1edb3;
 	border-radius: 8px;
 	border: none;
+	z-index: 500;
 }
 .weather {
 	display: flex;

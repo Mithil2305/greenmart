@@ -1,120 +1,74 @@
-.product-page {
-	padding: 20px;
-	max-width: 400px;
-	margin: 0 auto;
-	background-color: #fff;
+.p {
+	margin-top: 30px;
+	background-color: #eeeeee;
+	height: 196px;
+	width: 300px;
+	margin-left: 15%;
 	border-radius: 10px;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.header {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
 	margin-bottom: 20px;
 }
-
-.back-button {
-	font-size: 24px;
-	background: none;
-	border: none;
-	cursor: pointer;
+.dot {
+	font-size: 50px;
+	margin-top: -40px;
 }
-
-.tutorial-button {
-	background-color: #f06c6c;
-	color: white;
-	padding: 5px 10px;
-	border-radius: 20px;
-	border: none;
-	cursor: pointer;
-	font-size: 14px;
-}
-
-.product-image {
-	text-align: center;
-	margin-bottom: 20px;
-}
-
-.image-placeholder {
-	width: 100%;
-	height: 200px;
-	background-color: #e0e0e0;
-	border-radius: 10px;
-}
-
-.product-info {
-	text-align: center;
-	margin-bottom: 20px;
-}
-
-.product-info h1 {
-	font-size: 24px;
-	margin: 0;
-	font-weight: bold;
-}
-
-.price {
-	font-size: 20px;
-	margin: 10px 0;
-	font-weight: bold;
-}
-
-.price span {
-	font-size: 14px;
-	color: #888;
-}
-
-.quantity-selector {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	gap: 10px;
-}
-
-.quantity-button {
-	background-color: #e0e0e0;
-	border: none;
-	padding: 5px 15px;
-	font-size: 18px;
-	cursor: pointer;
-	border-radius: 5px;
-}
-
-.quantity-selector input {
-	width: 50px;
-	text-align: center;
-	font-size: 18px;
-	border: 1px solid #e0e0e0;
-	border-radius: 5px;
-}
-
-.actions {
+.c .detail {
 	display: flex;
 	flex-direction: column;
-	gap: 10px;
+	margin-top: -60px;
 }
 
-.add-to-cart,
-.buy-now {
-	background-color: #00b100;
-	color: white;
-	padding: 10px 0;
-	border: none;
+.c .detail h3 {
+	text-align: start;
+	color: black;
+}
+.c .detail h2 {
+	text-align: start;
+	margin-top: -30px;
+	color: black;
+}
+.c .detail p {
+	margin-top: -15px;
+	font-size: 10px;
+	margin-left: -170px;
+	color: black;
+}
+.c .detail input {
+	background-color: #e2e2e2;
+	color: black;
+	width: 60px;
+	height: 15px;
+
+	font-weight: 800;
+	margin-left: -160px;
+	margin-top: -10px;
+}
+.c .detail form {
+	margin-top: -30px;
+	margin-left: -140px;
+}
+
+.btnC {
+	margin-left: 20%;
+	margin-top: 40px;
+}
+
+.btnC button {
+	height: 37px;
+	width: 260px;
 	border-radius: 10px;
-	font-size: 18px;
-	cursor: pointer;
-	text-align: center;
+	background-color: #00c013;
+	color: white;
+	font-weight: 600;
+	border: #00c013;
+	padding-top: 8px;
+	margin-bottom: 20px;
+}
+.btnC button img {
+	margin-left: 10px;
+	height: 17px;
+	width: 17px;
 }
 
-.buy-now {
-	background-color: #00b100;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.buy-now span {
-	margin-left: 5px;
-	font-size: 18px;
+.btnC button:hover {
+	background-color: #11d524;
 }

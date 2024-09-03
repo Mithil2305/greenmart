@@ -1,39 +1,41 @@
 import React from "react";
 import "../style/Cart.css";
+import flash from "../assets/flash.png";
+import tutorial from "../assets/tutorial.svg";
+import back from "../assets/back.png";
+import { useNavigate } from "react-router-dom";
 
 const Cart = () => {
+	const navigate = useNavigate();
+
 	return (
-		<>
-			<div className="product-page">
-				<header className="header">
-					<button className="back-button">m</button>
-					<button className="tutorial-button">Watch Tutorial</button>
-				</header>
-
-				<div className="product-image">
-					<div className="image-placeholder"></div>
-				</div>
-
-				<div className="product-info">
-					<h1>Tomato Seeds</h1>
-					<p className="price">
-						Rs 20.0 <span>/ Pack</span>
-					</p>
-
-					<div className="quantity-selector">
-						<button className="quantity-button">-</button>
-						<input type="text" value="50" readOnly />
-						<button className="quantity-button">+</button>
-					</div>
-				</div>
-
-				<div className="actions">
-					<button className="add-to-cart">Add to Cart</button>
-					<button className="buy-now">Buy Now ⚡</button>
+		<div className="c">
+			<div className="m">
+				<img src={back} onClick={() => navigate("/back")}></img>
+				<div className="b1">
+					<button>
+						<img src={tutorial} alt="" />
+					</button>
 				</div>
 			</div>
-		</>
+			<div className="p"></div>
+			<p className="dot">....</p>
+			<div className="detail">
+				<h3>Tomato Seeds</h3>
+				<h2>
+					Rs 20.0<p>/Pack</p>
+				</h2>
+				<form>
+					<input type="number" defaultValue={0}></input>
+				</form>
+			</div>
+			<div className="btnC">
+				<button>Add to Cart</button>
+				<button>
+					Buy Now<img src={flash}></img>
+				</button>
+			</div>
+		</div>
 	);
 };
-
 export default Cart;

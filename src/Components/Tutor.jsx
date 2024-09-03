@@ -1,5 +1,5 @@
 import React from "react";
-import "../tutor.css";
+import "../style/tutor.css";
 const Tutor = () => {
 	return (
 		<>

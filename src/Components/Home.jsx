@@ -11,7 +11,10 @@ import market from "../assets/Cereal.png";
 import cart from "../assets/Cart.png";
 import farmer from "../assets/Farmer.png";
 
+import { useNavigate } from "react-router-dom";
+
 const Home = () => {
+	const navigate = useNavigate();
 	return (
 		<>
 			<div className="home">
@@ -95,11 +98,11 @@ const Home = () => {
 
 				<div className="nav">
 					<footer>
-						<img src={home} alt="" />
-						<img src={farmer} alt="" />
-						<img src={market} alt="" />
-						<img src={cart} alt="" />
-						<img src={settings} alt="" />
+						<img src={home} alt="" onClick={() => navigate("/home")} />
+						<img src={farmer} alt="" onClick={() => navigate("/farmer")} />
+						<img src={market} alt="" onClick={() => navigate("/market")} />
+						<img src={cart} alt="" onClick={() => navigate("/cart")} />
+						<img src={settings} alt="" onClick={() => navigate("/settings")} />
 					</footer>
 				</div>
 			</div>

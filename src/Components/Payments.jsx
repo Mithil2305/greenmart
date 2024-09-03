@@ -75,7 +75,7 @@ const Payments = () => {
 			</div>
 			<header className="header">
 				<button className="back-button">
-					<img src={back} alt="Back" />
+					<img src={back} alt="Back" onClick={() => navigate("/back")} />
 				</button>
 				<button className="tutorial-button">Watch Tutorial</button>
 			</header>

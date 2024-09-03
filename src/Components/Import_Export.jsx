@@ -1,16 +1,23 @@
 import React from "react";
 import back from "../assets/back.png";
-import play from "../assets/play.png";
 import flash from "../assets/flash.png";
 import "../style/ImEx.css";
+import { useNavigate } from "react-router-dom";
 import tutorial from "../assets/tutorial.svg";
+
+import home from "../assets/Home.png";
+import settings from "../assets/Settings.png";
+import market from "../assets/Cereal.png";
+import cart from "../assets/Cart.png";
+import farmer from "../assets/Farmer.png";
 const Import_Export = () => {
+	const navigate = useNavigate();
 	return (
 		<>
 			<div>
 				<div className="m">
 					<div>
-						<img src={back}></img>
+						<img src={back} onClick={() => navigate("/back")}></img>
 					</div>
 					<div className="b1">
 						<button>
@@ -68,6 +75,16 @@ const Import_Export = () => {
 						</button>
 					</div>
 				</div>
+			</div>
+
+			<div className="nav">
+				<footer>
+					<img src={home} alt="" onClick={() => navigate("/home")} />
+					<img src={farmer} alt="" onClick={() => navigate("/farmer")} />
+					<img src={market} alt="" onClick={() => navigate("/market")} />
+					<img src={cart} alt="" onClick={() => navigate("/cart")} />
+					<img src={settings} alt="" onClick={() => navigate("/settings")} />
+				</footer>
 			</div>
 		</>
 	);
