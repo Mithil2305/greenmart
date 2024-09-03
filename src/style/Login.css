@@ -1,97 +1,89 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
-*{
-    text-align: center;
+* {
+	text-align: center;
 }
-.log{
-    padding: 20px;
-    margin: 50px;
+.log {
+	padding: 20px;
+	margin: 50px;
 }
 
-h1{
-    color: rgb(18, 110, 16);
-    font-family: "Montserrat";
+h1 {
+	color: rgb(18, 110, 16);
+	font-family: "Montserrat";
 }
-h2{
-    color: rgb(18, 110, 16);
-    font-family: "Montserrat";
-    font-size: 20px;
+h2 {
+	color: rgb(18, 110, 16);
+	font-family: "Montserrat";
+	font-size: 20px;
 }
 
 select {
-    background-color: #00c013; /* Darker green for button */
-    color: white;
-    border: none;
-    border-radius: 7px;
-    font-family: "Montserrat";
-    padding-top: 4px;
-    padding-bottom: 4px;
-    font-weight: bold;
-    text-align: center;
-    
-
+	background-color: #00c013; /* Darker green for button */
+	color: white;
+	border: none;
+	border-radius: 7px;
+	font-family: "Montserrat";
+	padding-top: 4px;
+	padding-bottom: 4px;
+	font-weight: bold;
+	text-align: center;
 }
 
-.selp{
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 0.8rem;
+.selp {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 0.8rem;
 }
-.sel{
-    display: flex;
-    flex-direction: column;
-    width: 150px;
-    justify-content: center;
+.sel {
+	display: flex;
+	flex-direction: column;
+	width: 150px;
+	justify-content: center;
 }
 select:hover {
-    background-color: #0aff23d4;
-    cursor: pointer;
+	background-color: #0aff23d4;
+	cursor: pointer;
 }
 .submit:hover {
-    cursor: pointer;
-    background-color: #0aff23d4;
+	cursor: pointer;
+	background-color: #0aff23d4;
 }
 
-.in{
-    padding-top: 35px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-
+.in {
+	padding-top: 35px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
 }
 
-input{
-    border-radius: 4px;
-    width: 250px;
-    text-align: center;
-    justify-content: center;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    background-color:#ededed;
-    border: #ededed;
-    
+input {
+	border-radius: 4px;
+	width: 250px;
+	text-align: center;
+	justify-content: center;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	background-color: #ededed;
+	border: #ededed;
 }
 
-.submit{
-    margin-top: 15px;
-    background-color: #00c013;
-    color: white;
-    border: #4CAF50;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 4px;
-    width: 254px;
-    text-align: center;
-    justify-content: center;
-    font-family: "Montserrat";
-    font-weight: bold;
-    font-size: 20px;
-    
+.submit {
+	margin-top: 15px;
+	background-color: #00c013;
+	color: white;
+	border: #4caf50;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 4px;
+	width: 254px;
+	text-align: center;
+	justify-content: center;
+	font-family: "Montserrat";
+	font-weight: bold;
+	font-size: 20px;
 }
 
 /* .greenmart-header {

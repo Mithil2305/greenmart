@@ -31,7 +31,7 @@ const Cart = () => {
 			</div>
 			<div className="btnC">
 				<button>Add to Cart</button>
-				<button>
+				<button onClick={() => navigate("/payments")}>
 					Buy Now<img src={flash}></img>
 				</button>
 			</div>

@@ -2,7 +2,7 @@ import React from "react";
 import "../style/Login.css";
 import Location from "../assets/Location.png";
 
-export const Login = () => {
+const Login = () => {
 	return (
 		<div>
 			<div className="log">
@@ -39,10 +39,9 @@ export const Login = () => {
 						<input placeholder="Enter Mobile Number" type="phone" />
 						<input placeholder="Enter OTP" type="number" />
 					</div>
-
-					<button className="submit" type="submit">
-						Login
-					</button>
+					<div onClick={() => navigate("/")}>
+						<button className="submit">Login</button>
+					</div>
 				</form>
 
 				<h2>Or</h2>
@@ -54,3 +53,5 @@ export const Login = () => {
 		</div>
 	);
 };
+
+export default Login;

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../style/Payments.css";
-
+import tutorial from "../assets/tutorial.svg";
 // Example image imports (replace with actual paths)
 import gpayIcon from "../assets/gpay.png";
 import netBankingIcon from "../assets/netbank.png";
@@ -10,8 +10,11 @@ import product1 from "../assets/p1.png";
 import product2 from "../assets/p2.png";
 import product3 from "../assets/p3.png";
 import back from "../assets/back.png";
+import { useNavigate } from "react-router-dom";
 
 const Payments = () => {
+	const navigate = useNavigate();
+
 	// State for selected payment method
 	const [selectedPaymentMethod, setSelectedPaymentMethod] = useState("cod");
 
@@ -64,7 +67,7 @@ const Payments = () => {
 	return (
 		<div className="cart-page">
 			<div className="m">
-				<div>
+				<div onClick={() => navigate("/back")}>
 					<img src={back}></img>
 				</div>
 				<div className="b1">
@@ -73,12 +76,6 @@ const Payments = () => {
 					</button>
 				</div>
 			</div>
-			<header className="header">
-				<button className="back-button">
-					<img src={back} alt="Back" onClick={() => navigate("/back")} />
-				</button>
-				<button className="tutorial-button">Watch Tutorial</button>
-			</header>
 
 			<h2 className="cart-title">My Cart</h2>
 

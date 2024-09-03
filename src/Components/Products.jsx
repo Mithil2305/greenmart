@@ -117,7 +117,7 @@ const Products = () => {
 			<br />
 			<div className="nav">
 				<footer>
-					<img src={home} alt="" onClick={() => navigate("/home")} />
+					<img src={home} alt="" onClick={() => navigate("/back")} />
 					<img src={farmer} alt="" onClick={() => navigate("/farmer")} />
 					<img src={market} alt="" onClick={() => navigate("/market")} />
 					<img src={cart} alt="" onClick={() => navigate("/cart")} />
